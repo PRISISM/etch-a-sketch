@@ -1,0 +1,37 @@
+h1 {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+}
+
+
+#etchgrid {
+    overflow: auto;
+    width: 960px;
+    margin: auto; 
+    overflow-y: hidden;
+    line-height:0;
+
+}
+
+.cell {
+    background-color: lightgrey;
+    display: inline-block;
+}
+
+body {
+}
+
+#buttons {
+    text-align: center;
+    margin-bottom: 20px;    
+}
+
+.color {
+    background-color: black;
+}
+
+p {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    
+}

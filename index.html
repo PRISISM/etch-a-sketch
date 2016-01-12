@@ -2,10 +2,27 @@
 <html>
     <head>
         <title>Etch a Sketch</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
     </head>
 
     <body>
-    Hello World!
-    </body>
+        <h1>Etch-a-Sketch Project</h1>
+        <p>Click a button to start drawing!</p>
+        <div id = "buttons">
+            <button class = "button">Create</button>
+            <button class = "random">Random Color</button>
+            <button class = "gradient">Gradient</button>
+            <button class = "trail">Trail</button>
+        </div>
 
+        <div id = "etchgrid">
+        </div>
+        
+        
+        <p><a href="https://github.com/toashel/etch-a-sketch">View Source Code</a></p>
+    </body>
+    
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script> 
+    <script src="etch.js"></script>
 </html>
